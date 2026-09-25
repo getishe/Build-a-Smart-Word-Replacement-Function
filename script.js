@@ -5,7 +5,7 @@ function myReplace(sentence, str, replaceWord){
  
   let result = "";
  
-  if(!sentence.includes(str.trim())){ 
+  if(!sentence.includes(str.trim() || str !== "string" )){ 
    return "String not found";
 }
   
